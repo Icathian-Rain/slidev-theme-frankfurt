@@ -5,23 +5,12 @@ html {
 .slidev-page,
 .slidev-layout {
 
+    position: relative;
+    top: 60px;
 	overflow: hidden;
 
 	html.dark & {
 		background: #222;
-	}
-
-	h1 {
-		@apply text-white shadow-md;
-		background: #3333B3;
-		margin-top: -4rem;
-		margin-bottom: 2rem;
-		margin-left: -5.5rem;
-		margin-right: -5.5rem;
-		padding: 5.5rem 3rem 1rem 3rem;
-		width: 1000%;
-		--un-shadow-opacity: 1;
-		--un-shadow-color: #3333B3;
 	}
 
 	&.center,
